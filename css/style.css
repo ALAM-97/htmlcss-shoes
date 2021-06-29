@@ -48,15 +48,14 @@ a {
     border-radius: 50%;
 }
 
-/* MAIN SECTION 1 */
+/* MAIN SECTION */
 
-section.section1 {
+section.section1, section.section2, section.section3 {
     position: relative;
     height: 100vh;
-    background-color: #116062;
 }
 
-.section1 .content{
+.content{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -67,6 +66,24 @@ section.section1 {
 section div h1 {
     text-align: center;
     font-size: 100px;
+    color: #efefef;
 }
+
+.section2 div h1 {
+    color: black;
+}
+
+section.section1 {
+    background-color: #116062;
+}
+
+section.section2 {
+    background-color: lightgray;
+}
+
+section.section3 {
+    background-color: #003399;
+}
+
 
 
