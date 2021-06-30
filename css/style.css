@@ -39,6 +39,7 @@ li {
 
 li:hover {
     background-color: grey;
+    transform: scale(1.2);
 }
 
 li a {
