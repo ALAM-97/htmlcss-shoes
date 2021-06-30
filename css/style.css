@@ -37,6 +37,10 @@ li {
     border-radius: 50%;
 }
 
+li:hover {
+    background-color: grey;
+}
+
 li a {
     position: absolute;
     padding: 15px 15px;
@@ -47,7 +51,6 @@ li a {
     text-decoration: none;
     font-weight: bold;
     text-shadow: grey 1px 1px;
-    
 }
 
 /* MAIN SECTION */
