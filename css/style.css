@@ -68,13 +68,13 @@ section.section1, section.section2, section.section3 {
     transform: translate(-50%, -50%);
 }
 
-section div h1 {
+section div h2 {
     text-align: center;
     font-size: 100px;
     color: #efefef;
 }
 
-.section2 div h1 {
+.section2 div h2 {
     color: black;
 }
 
